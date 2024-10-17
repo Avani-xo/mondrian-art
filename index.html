@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .all{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container{
+      display: grid;
+      height: 770px;
+      width: 770px;
+      grid-template-columns: 320px auto;
+      grid-template-rows: 414px 314px;
+      gap: 7px;
+      background-color: black;
+      }
+    .a{
+        background-color:#E72F24 ;
+      }
+    .grey{
+        background-color: #F0F1EC;
+      }
+
+    .d{
+        display: grid;
+        grid-template-columns: 350px auto;
+        gap: 7px;
+      }
+    .d *{
+        background-color: #F0F1EC;
+        }
+    .j{
+        height: 130px;
+        border-bottom: 10px solid;
+        background-color: #004592;
+      }
+    .f{
+        height: 30px;
+      }
+    .k{
+      display: grid;
+      grid-template-rows: 27px;
+      grid-template-columns: 0.95fr 0.95fr 0.47fr;
+      gap: 7px;
+      padding: 0;
+    }
+    .g{
+      background-color: #F9D01E;
+      
+    }
+    .h{
+      background-color: #232629;
+    }
+    .jl{
+      display: grid;
+      grid-template-rows: 145px;
+      gap: 10px;
+      background-color: black;
+    }
+
+      
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="all">
+    <!-- Write your HTML here -->
+     <div class="container">
+      <div class="a"></div>
+      <div class="b grey"></div>
+      <div class="c grey"></div>
+      <div class="d">
+      <div class="e"></div>
+      <div class="jl">
+      <div class="j"></div>
+      <div class="l grey"></div>
+      </div> </div>
+      <div class="f grey"></div>
+      <div class="k">
+      <div class="g"></div>
+      <div class="h"></div>
+      <div class="i grey"></div>
+      </div>
+      </div>
+</body>
+
+</html>
